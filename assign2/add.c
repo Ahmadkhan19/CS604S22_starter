@@ -1,12 +1,14 @@
-#include<stdio.h>
-int main()
-{ 
-int _a, _b;
-printf("Enter two Numbers : ");
-scanf("%d %d",&_a,&_b);
+#include <stdio.h>
+int main() {    
 
-//TODO:1. declare a variable _c
-//TODO:2. store _a plus _b into _c
+    int number1, number2, sum;
+    
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
 
-printf("The Sum is %d\n", _c);
+    // calculating sum
+    sum = number1 + number2;      
+    
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
 }
